@@ -20,9 +20,10 @@ const userSchema =new mongoose.Schema(
         profilePic:{
             type: String,
             default: ""
-        }
+        },
     },
-    {timestamp: true}
+    
+    {timestamps: true}
 );
 
 const User = mongoose.model('User', userSchema);
