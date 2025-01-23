@@ -1,0 +1,10 @@
+
+# Ignore specific files
+frontend/src/App.css
+frontend/src/assets/react.svg
+
+# Node modules (this applies to both backend and frontend)
+node_modules/
+
+# Environment files (this applies globally)
+.env
